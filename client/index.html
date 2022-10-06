@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!-- Web App Config -->
-    <title>Snapdrop</title>
+    <title>DropFast</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#3367d6">
     <meta name="color-scheme" content="dark light">
@@ -58,7 +58,7 @@
     <!-- Peers -->
     <x-peers class="center"></x-peers>
     <x-no-peers>
-        <h2>Open Snapdrop on other devices to send files</h2>
+        <h2>Apri DropFast su un'altro dispositivo</h2>
     </x-no-peers>
     <x-instructions desktop="Clicca per inviare file o fai click destro per mandare un messaggio" mobile="Premi per inviare file o tieni premuto per mandare un messaggio"></x-instructions>
     <!-- Footer -->
@@ -67,25 +67,25 @@
             <use xlink:href="#wifi-tethering" />
         </svg>
         <div id="displayName" placeholder="Il metodo più semplice per trasferire file da un dispositivo all'altro"></div>
-        <div class="font-body2">You can be discovered by everyone on this network</div>
+        <div class="font-body2">Necessaria una rete locale per il trasferimento</div>
     </footer>
     <!-- Receive Dialog -->
     <x-dialog id="receiveDialog">
         <x-background class="full center">
             <x-paper shadow="2">
-                <h3>File Received</h3>
+                <h3>✅File Ricevuto</h3>
                 <div class="font-subheading" id="fileName">Filename</div>
                 <div class="font-body2" id="fileSize"></div>
                 <div class='preview' style="visibility: hidden;">
                     <img id='img-preview' src="">
                 </div>
                 <div class="row">
-                    <label for="autoDownload" class="grow">Ask to save each file before downloading</label>
+                    <label for="autoDownload" class="grow">Chiedi dove salvare ogni file</label>
                     <input type="checkbox" id="autoDownload" checked="">
                 </div>
                 <div class="row-reverse">
-                    <a class="button" close id="download" title="Download File" autofocus>Save</a>
-                    <button class="button" close>Ignore</button>
+                    <a class="button" close id="download" title="Download File" autofocus>Salva</a>
+                    <button class="button" close>Ignora</button>
                 </div>
             </x-paper>
         </x-background>
@@ -95,11 +95,11 @@
         <form action="#">
             <x-background class="full center">
                 <x-paper shadow="2">
-                    <h3>Send a Message</h3>
+                    <h3>Manda un messaggio</h3>
                     <div id="textInput" class="textarea" role="textbox" placeholder="Manda un messaggio" autocomplete="off" autofocus contenteditable></div>
                     <div class="row-reverse">
-                        <button class="button" type="submit" close>Send</button>
-                        <a class="button" close>Cancel</a>
+                        <button class="button" type="submit" close>Invia</button>
+                        <a class="button" close>Annulla</a>
                     </div>
                 </x-paper>
             </x-background>
@@ -109,11 +109,11 @@
     <x-dialog id="receiveTextDialog">
         <x-background class="full center">
             <x-paper shadow="2">
-                <h3>Message Received</h3>
+                <h3>Message Ricevuto</h3>
                 <div class="font-subheading" id="text"></div>
                 <div class="row-reverse">
-                    <button class="button" id="copy" close autofocus>Copy</button>
-                    <button class="button" close>Close</button>
+                    <button class="button" id="copy" close autofocus>Copia</button>
+                    <button class="button" close>Chiudi</button>
                 </div>
             </x-paper>
         </x-background>
@@ -135,8 +135,8 @@
             <svg class="icon logo">
                 <use xlink:href="#wifi-tethering" />
             </svg>
-            <h1>Snapdrop</h1>
-            <div class="font-subheading">The easiest way to transfer files across devices</div>
+            <h1>DropFast</h1>
+            <div class="font-subheading">Il metodo più semplice per passarsi file tra dispositivi</div>
             <div class="row">
                 <a class="icon-button" target="_blank" href="https://github.com/e-splat/dropfast" title="DropFast su GitHub" rel="noreferrer">
                     <svg class="icon">
@@ -205,8 +205,8 @@
     <!-- no script -->
     <noscript>
         <x-noscript class="full center column">
-            <h1>Enable JavaScript</h1>
-            <h3>Snapdrop works only with JavaScript</h3>
+            <h1>Attiva JavaScript</h1>
+            <h3>DropFast ha bisogno di JavaScript</h3>
         </x-noscript>
         <style>
         x-noscript {

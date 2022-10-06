@@ -1,8 +1,10 @@
 /* Constants */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
     --icon-size: 24px;
-    --primary-color: #4285f4;
+    --primary-color: #3fb543;
     --peer-width: 120px;
     color-scheme: light dark;
 }
@@ -81,7 +83,7 @@ header {
 /* Typography */
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Poppins", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
